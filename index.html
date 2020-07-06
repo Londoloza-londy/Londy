@@ -107,15 +107,27 @@ href="#footerDiv">contacts </a>
 		<div class="arrow1">
 		<i class="fa fa-arrow=left" aria-hidden="true" id="previousB"></i>
 		</div>
-		<div class="slide-container">
-		<div class="slider">
-		<img src="./pics/11.jpg" id="lastclone" alt="">
-		<img src="./pics/3.jpg" alt="">
-		<img src="./pics/5.jpg" alt="">
-		<img src="./pics/7.jpg" alt="">
-		<img src="./pics/9.jpg" alt="">
-		<img src="./pics/11.jpg" alt="">
-		<img src="./pics/3.jpg" id="firstclone" alt="">
+		<div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="images/img1.jpg" />  
+            <div class="content">Lorem ipsum dolor sit amet</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="images/img2.jpg"/>  
+            <div class="content">Lorem ipsum dolor sit amet</div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="images/img3.jpg"/>  
+            <div class="content">Lorem ipsum dolor sit amet</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="images/img4.jpg"/>  
+            <div class="content">Lorem ipsum dolor sit amet</div>  
+        </div>  
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a>  
 		</div>
 		<div class="arrow2>
 		<i class="fa fa-arrow-right" aria-hidden="true" id="nextB"></i>
