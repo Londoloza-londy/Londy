@@ -100,6 +100,7 @@ href="#footerDiv">contacts </a>
 		
   }
 }
+		<script>
 		<select class="top-latest-product-selection" id="schoolProject" style="black"
 		<div class="container">
 		<div class="inner"
@@ -178,7 +179,7 @@ href="#footerDiv">contacts </a>
 	bottom: 0;
 	right: 0;
 		}
-		
+		</script>
 	</style>
 
 	<!--[if lt IE 9]>
@@ -237,9 +238,25 @@ href="#footerDiv">contacts </a>
 			<a href="#history">About Us</a>
 			<a href="#schoolProject">Events</a>
 			<a href="#footerDiv">Contacts</a>
+			<a href="#Game.html">Game</a>
 			<div style="width: 100%; height: 10px; background-color: steelblue;z-index: 104;background-attachment: fixed;"></div>
 		</div>
-		
+		<script
+			$(document).ready(function(){
+		$('#image').click(function(){
+		$('#navbar').css('background-color','orenge');
+		});
+$('#aboutUs').click(function(){
+		$('#navbar').css('background-color','purple');
+		});
+		$('#events').click(funtion(){
+		$('#navbar').css('background-color','green');
+		});
+		$('#contacts').click(function(){
+		$('#navbar').css('background-color','black');
+		});
+		});
+			</script>
 		<div class="hero-slider owl-carousel">
 			<div class="hs-item set-bg" data-setbg="pics/1.jpg">
 				<div class="container">
@@ -266,20 +283,7 @@ href="#footerDiv">contacts </a>
 			</div>
 	</section>
 	<!-- Hero section end -->
-$(document).ready(function(){
-		$('#image').click(function(){
-		$('#navbar').css('background-color','orenge');
-		});
-$('#aboutUs').click(function(){
-		$('#navbar').css('background-color','purple');
-		});
-		$('#events').click(funtion(){
-		$('#navbar').css('background-color','green');
-		});
-		$('#contacts').click(function(){
-		$('#navbar').css('background-color','black');
-		});
-		});
+
 
 
 
