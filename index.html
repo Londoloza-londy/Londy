@@ -181,6 +181,7 @@ href="#game.html">Game</a>
 	right: 0;
 		}
 		
+		
 	</style>
 
 	<!--[if lt IE 9]>
@@ -197,8 +198,12 @@ href="#game.html">Game</a>
 </head>
 </script>
 <body>
-	
-			
+	  <h1>Create a New Window</h1>
+	<hr> <p>Use the buttons below to test opening and closing windows in JavaScript.</p>
+	<hr> <form NAME="winform"> <input TYPE="button" VALUE="Open New Window" onClick="NewWin=window.open('','NewWin', 'toolbar=no,status=no,width=200,height=100'); ">
+	<p><input TYPE="button" VALUE="Close New Window" onClick="NewWin.close();" ></p> <p><input TYPE="button" VALUE="Close Main Window" onClick="window.close();">
+	</p> </form> <br><p>Have fun!</p> <hr>
+
 	<script>
 			alert("WELCOME!");  // display string message
 
@@ -207,6 +212,7 @@ href="#game.html">Game</a>
 			alert(true); // display boolean
 
 	    </script>
+	
 				
 				
 	<!-- Page Preloder -->
@@ -225,8 +231,8 @@ href="#game.html">Game</a>
 			<a id='aboutUs' onclick="changecolour1()" href="#history">AboutUs</a>
 			<a id='Events' onclick="changecolour2()" href="#schoolProject">Events</a>
 			<a id='Contact' onclick="changecolour3()" href="#footerDiv">Contact</a>
-			<a id='Talk to us' onclick="changecolour4()" href="#form contaner">Form</a>
 			<a id='Game' href="game.html" target="_blank">Game</a>
+			<a href="#" onclick="openwindow()">Click!</a>
 			<div style="width: 100%; height: 10px; background-color: steelblue;z-index: 104;background-attachment: fixed;"></div>
 		</div>
 		
