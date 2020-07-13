@@ -65,11 +65,18 @@ fetch('https://example.com/profile/avatar', {
 				<input type=”Password” placeholder=”Password” name=””>
 			</td>
 		</tr>
-	</table>
-	<input type="checkbox" name="Male" value="Male"> Male<br>
-  <input type="checkbox" name="Female" value="Female"> Female<br>
 	
-	<body onload="GetFileInfo ()">
+	</table>
+
+	<input type="checkbox" name="Male" value="Male"> Male<br>
+	
+		Cover Letter: <br>
+  <input type="checkbox" name="Female" value="Female"> Female<br><textarea rows="4" cols="50" name="comment" form="usrform">
+Cover Letter...</textarea>
+
+	
+	
+Upload Documents: <br>	<body onload="GetFileInfo ()">
     <input type="file" id="fileInput" multiple="multiple" size="60" onchange="GetFileInfo ()" />
     <div id="info" style="margin-top:30px"></div>
 	
