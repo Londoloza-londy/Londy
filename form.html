@@ -22,7 +22,7 @@ function myFunction() {
 	  
   </style>
     
-<h1> Talk to Us!</h1>
+<h1> Registration Form</h1>
 </head>
 <body>
 	<script>
@@ -69,17 +69,14 @@ fetch('https://example.com/profile/avatar', {
 	</table>
 
 	<input type="checkbox" name="Male" value="Male"> Male<br>
-	
-		Cover Letter: <br>
-  <input type="checkbox" name="Female" value="Female"> Female<br><textarea rows="4" cols="50" name="comment" form="usrform">
-Cover Letter...</textarea>
-
-	
+  <input type="checkbox" name="Female" value="Female"> Female<br>
+	Cover Letter: <br>
+	<textarea rows="4" cols="50" name="comment" form="usrform">
+Cover Letter...</textarea><br>
 	
 Upload Documents: <br>	<body onload="GetFileInfo ()">
     <input type="file" id="fileInput" multiple="multiple" size="60" onchange="GetFileInfo ()" />
     <div id="info" style="margin-top:30px"></div>
-	
 	
   <input type="Submit" Value="Submit"><br>
   
